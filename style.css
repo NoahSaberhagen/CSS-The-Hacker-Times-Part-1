@@ -5,18 +5,6 @@ body {
     font-family: Source Sans Pro;
 }
 
-h1 {
-    font-family: Abril Fatface;
-    font-weight: 400;
-    text-align: center;
-    padding: auto;
-}
-
-h2 h4 {
-    font-family: Robot Slab;
-    font-weight: 400;
-}
-
 .newspaper-container {
     background-color: #fff;
     width: 700px;
@@ -25,15 +13,47 @@ h2 h4 {
     margin: 20px auto;
 }
 
+h1 {
+    font-family: Abril Fatface;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    margin: 14px 0;
+}
+
+h2 h4 {
+    font-family: Robot Slab;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: Abril Fatface;
+    font-weight: 400;
+    color: red;
+    margin: 14px 0;
+}
+
 nav {
     border-top: 2px solid #555;
     border-bottom: 2px solid #555;
-    margin: auto;
+    width: 100%;
 }
 
-nav, ul, li {
+nav, li {
     display: inline-block;
     text-align: center;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    padding: 7px;
 }
 
 li, a {
@@ -43,10 +63,6 @@ li, a {
 
 li, a:hover {
     color: red;
-}
-
-h5 {
-    color: red
 }
 
 .more-articles {
