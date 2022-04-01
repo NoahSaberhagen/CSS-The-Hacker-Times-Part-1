@@ -13,24 +13,26 @@ body {
     margin: 30px auto;
 }
 
-h1 {
+.newspaper-title {
     font-family: Abril Fatface;
     font-size: 48px;
     font-weight: 800;
     text-align: center;
 }
 
-h2 {
+.headline-title {
     margin: 14px 0;
     font-size: 24px;
-}
-
-h2, h4 {
     font-family: Roboto Slab;
     font-weight: 400;
 }
 
-h5 {
+.article-title {
+    font-family: Roboto Slab;
+    font-weight: 400;
+}
+
+.author {
     font-family: Abril Fatface;
     font-weight: 400;
     color: red;
@@ -42,20 +44,18 @@ nav {
     border-bottom: 2px solid #555;
 }
 
-nav, li {
+nav, ul, li {
+    padding-left: 0;
+    font-weight: 400;
     display: inline-block;
     text-align: center;
-}
-
-ul {
-    padding-left: 0;
 }
 
 li {
     padding: 7px;
 }
 
-li, a {
+a {
     color: #555;
     text-decoration: none;
 }
